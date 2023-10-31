@@ -1,0 +1,9 @@
+
+if SHIELD_MACROKEYBOARD_RC
+
+config ZMK_KEYBOARD_NAME
+  default "MacroKeyboard_RC"
+
+
+
+endif
