@@ -63,7 +63,7 @@
         label = "Encoder 1";
         a-gpios = <&pro_micro 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         b-gpios = <&pro_micro 16 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-        resolution = <2>;
+        resolution = <1>;
         status = "okay";
     };
 
@@ -72,7 +72,7 @@
         label = "Encoder 2";
         a-gpios = <&pro_micro 14 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         b-gpios = <&pro_micro 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-        resolution = <2>;
+        resolution = <1>;
         status = "okay";
     };
 
@@ -130,7 +130,7 @@
         spi-max-frequency = <4000000>;
 
         /* WS2812 */
-        chain-length = <10>; /* arbitrary; change at will */
+        chain-length = <14>; /* arbitrary; change at will */
         spi-one-frame = <0x70>;
         spi-zero-frame = <0x40>;
 
